@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+}
+.container {
+  padding: 3% 3% 0% 3%;
+  box-shadow: inset #1e2423 0px 0px 500px;
+  /* background: #a3c6c4; */
+  background: #5793aa;
+}
+header {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-direction: column;
+  margin-bottom: 3%;
+  /* padding-bottom: 2%; */
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav > a {
+  flex: 1;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  /* color: #e0e7e9; */
+  color: #f6f8e5;
+
+  border-radius: 3px;
+  /* background: #a3c6c4; */
+  box-shadow: #365755 5px 5px 5px;
+  /* box-shadow: inset #1e2423 5px 5px 22px; */
+  padding: 2%;
+}
+nav > a:hover,
+.external-links > a:hover {
+  border-radius: 3px;
+  box-shadow: inset #365755 5px 5px 5px;
+  padding: 2%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  color: #f6f8e5;
+  /* color: #e0e7e9; */
+  text-align: center;
+  font-size: 40px;
+  font-family: "Patrick Hand", cursive;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.article {
+  margin-bottom: 3%;
+  border-radius: 3px;
+  background: #f6f8e5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-section {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pic {
+  flex-basis: 400px;
+  border-radius: 3px;
+  box-shadow: #365755 0px 5px 15px;
+  margin-bottom: 3%;
+}
+.about-links {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.external-links {
+  display: flex;
+  margin-bottom: 6%;
+}
+.external-links > a {
+  width: 100%;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  border-radius: 3px;
+  box-shadow: #365755 5px 5px 5px;
+  padding: 2%;
+  color: #3c6475;
+}
+.about-textbox {
+  border-radius: 3px;
+  box-shadow: #365755 0px 5px 15px;
+  background: #b40e0e33;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+
+.bottom-section {
+  flex-basis: 100%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+h2 {
+  color: #3c6475;
+  font-family: "Patrick Hand", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Patrick Hand", cursive, "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+
+  text-align: center;
+}
+.list-container {
+  border-radius: 3px;
+  box-shadow: #365755 0px 5px 15px;
+  flex-basis: 400px;
+  margin-bottom: 3%;
+}
