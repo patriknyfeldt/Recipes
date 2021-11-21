@@ -10,38 +10,112 @@
       href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Recept</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Klassiker från Piemonte</h1>
+        <h1>Piemontesisk Trerätters Middag</h1>
         <nav>
-          <a href="#carne-cruda">Carne Cruda</a>
-          <a href="#tajarin">Tajarin</a>
-          <a href="#bonét">Bonét</a>
+          <a href="#vitello-tonnato">Vitello Tonnato</a>
+          <a href="#tajarin">Tajarin al Ragù</a>
+          <a href="#bonét">Bonét alla Piemontese</a>
         </nav>
       </header>
       <main class="main">
-        <article class="article" id="carne-cruda">
-          <h2>Carne Cruda</h2>
-          <div class="top-section">
+        <section class="dish" id="vitello-tonnato">
+          <h2>Vitello Tonnato</h2>
+          <div class="top-container">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0LjDVgG56ksE_6u8RCHQrW-xS7PEv3PuhKw&usqp=CAU"
-              alt="picture of carne cruda"
+              src="vitello-tonnato.jpg"
+              alt="picture of vitello tonnato"
               class="pic"
             />
             <div class="about-links">
               <section class="external-links">
                 <a href="https://www.google.com/" target="_blank"
-                  >Klicka här för liknande recept på Carne Cruda</a
+                  >Klicka här för liknande recept på Vitello Tonnato</a
                 >
                 <a href="https://www.google.com/" target="_blank"
-                  >Klicka här för fler recept från Piemonte</a
+                  >Klicka här för fler recept på förrätter från Piemonte</a
                 >
               </section>
-              <section class="about-textbox">
+              <article class="about-textbox">
+                <h3>Surf n Turf på italienska</h3>
+                <p>
+                  På italienska betyder "Vitello" kalv och "Tonno" tonfisk.
+                  Precis som namnet antyder så består rätten av just kalv och
+                  tonfisk. Traditionellt sett så kokar man kalvköttet, och låter
+                  det svalna innan man skär det tunnt och serverar med
+                  tonfiskmajonnäsen. Här har vi stekt kalven istället för att
+                  göra det hela ännu godare.
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="bottom-container">
+            <article class="list-container">
+              <h3>Ingedienser 6pers</h3>
+              <ul>
+                <li>
+                  Kalvrostbiff (eller kalvinnanlår), putsad och uppbunden till
+                  jämntjock stek. Ca 1 kg
+                </li>
+                <li>Äggula, 2 st</li>
+                <li>Rapsolja, 3 dl</li>
+                <li>Kapris, 1 msk</li>
+                <li>Sardeller, 5 st</li>
+                <li>Vitlök, 1 klyfta</li>
+                <li>Tonfisk i olja, 150 gr</li>
+                <li>Rödvinsvinäger, 1 msk</li>
+              </ul>
+            </article>
+            <article class="list-container">
+              <h3>Gör så här</h3>
+              <ol>
+                <li>
+                  Salta och peppra kalvrostbiffen, och stek den i olja i varm
+                  panna, tills den är brynt runt om. sätt in den i ugn ca 120
+                  grader, och stek tills kärntemperaturen är 53 grader. Låt
+                  kalven svalna.
+                </li>
+                <li>
+                  Mixa äggula, kapris, vitlök, sardeller och vinäger med
+                  stavmixer. tillsätt olja långsamt tills all olja är i
+                  majonnäsen.
+                </li>
+                <li>Rör ner tonfisken i majonnäsen</li>
+                <li>
+                  Skiva kalven tunnt och servera med tonfiskmajonnäs. Garnera
+                  med gröna blad eller örter samt kaprisbär.
+                </li>
+              </ol>
+            </article>
+          </div>
+        </section>
+        <section class="dish" id="tajarin">
+          <h2>Tajarin al ragù</h2>
+          <div class="top-container">
+            <img
+              src="tajarin.jpg"
+              alt="picture of tajarin al ragu"
+              class="pic"
+            />
+            <div class="about-links">
+              <section class="external-links">
+                <a href="https://www.google.com/" target="_blank"
+                  >Klicka här för liknande recept på Tajarin</a
+                >
+                <a href="https://www.google.com/" target="_blank"
+                  >Klicka här för fler recept på pasta från Piemonte</a
+                >
+              </section>
+              <article class="about-textbox">
                 <h3>Om rätten</h3>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -50,11 +124,11 @@
                   maxime rerum doloremque nemo saepe quis optio unde sed a
                   laborum minima? Mollitia cum doloribus nobis.
                 </p>
-              </section>
+              </article>
             </div>
           </div>
-          <div class="bottom-section">
-            <section class="list-container">
+          <div class="bottom-container">
+            <article class="list-container">
               <h3>Ingedienser</h3>
               <ul>
                 <li>
@@ -70,8 +144,8 @@
                 <li>Lorem, ipsum dolor.</li>
                 <li>Lorem, ipsum dolor.</li>
               </ul>
-            </section>
-            <section class="list-container">
+            </article>
+            <article class="list-container">
               <h3>Gör så här</h3>
               <ol>
                 <li>
@@ -95,9 +169,83 @@
                   Minima, quam.
                 </li>
               </ol>
-            </section>
+            </article>
           </div>
-        </article>
+        </section>
+        <section class="dish" id="bonét">
+          <h2>Bonét alla Piemontese</h2>
+          <div class="top-container">
+            <img
+              src="bonét.jpg"
+              alt="picture of Bonét alla Piemontese"
+              class="pic"
+            />
+            <div class="about-links">
+              <section class="external-links">
+                <a href="https://www.google.com/" target="_blank"
+                  >Klicka här för liknande recept på Vitello Tonnato</a
+                >
+                <a href="https://www.google.com/" target="_blank"
+                  >Klicka här för fler recept från Piemonte</a
+                >
+              </section>
+              <article class="about-textbox">
+                <h3>Om rätten</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat, hic labore omnis deserunt, ullam magni ad deleniti
+                  dolorum reprehenderit harum pariatur voluptate error, esse
+                  maxime rerum doloremque nemo saepe quis optio unde sed a
+                  laborum minima? Mollitia cum doloribus nobis.
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="bottom-container">
+            <article class="list-container">
+              <h3>Ingedienser</h3>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Similique optio, impedit nulla assumenda atque nisi inventore
+                  illo fuga, eius dolore aperiam voluptas iure nihil, minima
+                  laboriosam porro rerum. Enim blanditiis dolor omnis amet optio
+                  reiciendis corporis ab, eligendi dolore. Est provident
+                  deleniti voluptate enim! Fugit!
+                </li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+            </article>
+            <article class="list-container">
+              <h3>Gör så här</h3>
+              <ol>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, quam.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, quam.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, quam.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, quam.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, quam.
+                </li>
+              </ol>
+            </article>
+          </div>
+        </section>
       </main>
     </div>
   </body>
